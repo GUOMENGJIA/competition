@@ -2,7 +2,7 @@ import numpy as np
 
 def func(name):
 
-  return "hello"+name
+  return "hello:"+name+"~"
 
 name=input("请输入对你的称呼：")
-func(name)
+print(func(name))
